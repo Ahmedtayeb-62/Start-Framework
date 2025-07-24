@@ -1,0 +1,31 @@
+.bg-container {
+  background-color: #1abc9c;
+  height: 92vh;
+}
+.translate {
+  transform: translateY(30vh);
+}
+.border-t {
+  border-top: 5px white solid;
+  margin-top: 20px;
+  transform: translateX(50%);
+}
+.border-t-tow {
+  border-top: 5px white solid;
+  margin-top: 20px;
+  transform: translateX(-50%);
+}
+h2 {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+  font-size: 2.5rem !important;
+  font-weight: 700 !important;
+}
+.icon {
+  margin: 0 -1.25rem;
+  margin-top: -5px;
+}
+.max {
+  max-width: 550px;
+}

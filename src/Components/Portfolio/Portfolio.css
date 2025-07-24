@@ -1,0 +1,21 @@
+.cursur-pointer {
+  cursor: pointer;
+}
+.hover {
+  transition: all 0.7s;
+  overflow: hidden;
+}
+.inner:hover .hover {
+  background-color: #1abc9c !important;
+  opacity: 0.8;
+}
+.inner:hover .tr-ic {
+  opacity: 1;
+}
+.tr-ic {
+  height: 50%;
+  transform: translateY(55%);
+  opacity: 0;
+  transition: all 0.7s;
+  z-index: 10;cursor: pointer;
+}

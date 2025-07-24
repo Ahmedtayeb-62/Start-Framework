@@ -1,0 +1,29 @@
+.icon-cont {
+  color: #2c3e50;
+}
+.border-t-cont {
+  border-top: 5px #2c3e50 solid;
+}
+.bg-container-tow {
+  background-color: #ffffff;
+  height: 92vh;
+}
+.clr-cont {
+  color: #2c3e50;
+}
+.translate-cont {
+  transform: translateY(7vh);
+}
+.bo-co {
+  border-top: 0px !important;
+  border-left: 0px !important;
+  border-right: 0px !important;
+}
+.bo-co:focus {
+  border-color: #dee2e6 !important;
+  box-shadow: none !important;
+  background-color: inherit !important;
+}
+.btn-clr {
+  background-color: #1abc9c !important;
+}
