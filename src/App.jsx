@@ -10,7 +10,7 @@ import { Contact } from "./Components/Contact/Contact.jsx";
 function App() {
   const router = createHashRouter([
     {
-      path: "/Start-Framework",
+      path: "/",
       element: <Layout />,
       children: [
         {
@@ -37,11 +37,7 @@ function App() {
     },
   ]);
 
-  return (
-    <>
-      <RouterProvider router={router} />
-    </>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;
